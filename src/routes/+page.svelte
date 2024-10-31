@@ -6,8 +6,8 @@
 	// Fetch data from the API when the component mounts
 	async function fetchData() {
 		try {
-			//const response = await fetch('https://your-app.onrender.com/api/pi');
-			const response = await fetch('http://127.0.0.1:5001/api/pi');
+			const response = await fetch('https://pi-generator.onrender.com/api/pi');
+			//const response = await fetch('http://127.0.0.1:5001/api/pi');
 			if (response.ok) {
 				piData = await response.json(); // Parse JSON response
 			} else {
