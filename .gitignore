@@ -12,7 +12,6 @@ Thumbs.db
 
 # Env
 venv/
-api/
 .env
 .env.*
 !.env.example
